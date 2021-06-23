@@ -17,6 +17,6 @@ elif tipo == 'I':
     else:
         preco = 0.6
 else:
-    print('Instalação invaçida!')
+    print('Instalação invalida!')
 
 print('Total a pagar: {}'.format(kwh * preco))
